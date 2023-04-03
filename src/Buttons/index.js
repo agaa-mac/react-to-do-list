@@ -1,9 +1,12 @@
+import "./style.css";
+
 export default function Buttons(props) {
   if (props.tasks.length > 0) {
     return (
-      <div>
+      <div className="buttons">
         {" "}
-        <button>Ukończone</button> <button>Ukończ wszystkie</button>{" "}
+        <button className="buttons__button">Ukończone</button>{" "}
+        <button className="buttons__button">Ukończ wszystkie</button>{" "}
       </div>
     );
   } else {

@@ -1,0 +1,9 @@
+.buttons__button {
+  color: rgb(2, 127, 142);
+  background-color: white;
+  border: none;
+  transition: 1s;
+}
+.buttons__button:hover {
+  color: rgba(2, 127, 142, 0.5);
+}

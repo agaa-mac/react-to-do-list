@@ -1,3 +1,5 @@
+import "./style.css";
+
 export default function Section(props) {
   return (
     <section>
