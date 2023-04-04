@@ -10,7 +10,17 @@ export default function Tasks({ tasks, hideDoneTasks }) {
             className={`
         list__item ${task.done && hideDoneTasks ? "list__item--hidden" : ""}`}
           >
-            {task.content}
+            <button className="list__button list__button--toogleDone">
+              {task.done ? "✓" : ""}
+            </button>
+            <span
+              className={`list__content${
+                task.done ? " list__content--done" : ""
+              }`}
+            >
+              {task.content}
+            </span>
+            <button className="list__button list__button--remove">🗑️</button>
           </li>
         );
       })}

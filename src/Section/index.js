@@ -2,12 +2,12 @@ import "./style.css";
 
 export default function Section({ title, extraHeaderContent, body }) {
   return (
-    <section>
-      <header>
-        <h2>{title}</h2>
+    <section className="section">
+      <header className="section__header">
+        <h2 className="section__title">{title}</h2>
         {extraHeaderContent}
       </header>
-      <div>{body}</div>
+      <div className="section__body">{body}</div>
     </section>
   );
 }

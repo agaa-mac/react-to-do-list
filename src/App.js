@@ -6,7 +6,7 @@ import Section from "./Section";
 import Container from "./Container";
 
 const tasks = [
-  { content: "wyprowadzić psa", done: false },
+  { content: "wyprowadzić psa", done: true },
   { content: "zjeść obiad", done: false },
 ];
 const hideDoneTasks = true;
@@ -18,7 +18,9 @@ export default function App() {
       <Section
         title="Lista zadań"
         body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
-        extraHeaderContent={<Buttons tasks={tasks} />}
+        extraHeaderContent={
+          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
+        }
       />
     </Container>
   );
