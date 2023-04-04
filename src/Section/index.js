@@ -1,13 +1,13 @@
 import "./style.css";
 
-export default function Section(props) {
+export default function Section({ title, extraHeaderContent, body }) {
   return (
     <section>
       <header>
-        <h2>{props.title}</h2>
-        {props.extraHeaderContent}
+        <h2>{title}</h2>
+        {extraHeaderContent}
       </header>
-      <div>{props.body}</div>
+      <div>{body}</div>
     </section>
   );
 }

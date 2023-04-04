@@ -1,7 +1,7 @@
 import "./style.css";
 
-export default function Buttons(props) {
-  if (props.tasks.length > 0) {
+export default function Buttons({ tasks }) {
+  if (tasks.length > 0) {
     return (
       <div className="buttons">
         {" "}

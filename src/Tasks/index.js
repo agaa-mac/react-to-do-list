@@ -1,16 +1,14 @@
 import "./style.css";
 
-export default function Tasks(props) {
+export default function Tasks({ tasks, hideDoneTasks }) {
   return (
     <ul className="list">
-      {props.tasks.map(function (task, index) {
+      {tasks.map(function (task, index) {
         return (
           <li
             key={index}
             className={`
-        list__item ${
-          task.done && props.hideDoneTasks ? "list__item--hidden" : ""
-        }`}
+        list__item ${task.done && hideDoneTasks ? "list__item--hidden" : ""}`}
           >
             {task.content}
           </li>
