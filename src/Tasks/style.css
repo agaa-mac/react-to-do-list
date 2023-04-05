@@ -17,14 +17,13 @@
 
 .list__button {
   transition: 0.5s;
-  color: white;
 }
 
 .list__button--toogleDone {
   background-color: rgb(29, 134, 35);
   border: 1px solid rgb(29, 134, 35);
-  color: rgb(29, 134, 35);
-  padding: 10px 15px;
+  color: white;
+  width: 30px;
 }
 .list__button--toogleDone:hover {
   background-color: rgba(29, 134, 35, 0.8);

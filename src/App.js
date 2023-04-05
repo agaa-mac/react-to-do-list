@@ -6,10 +6,10 @@ import Section from "./Section";
 import Container from "./Container";
 
 const tasks = [
-  { content: "wyprowadzić psa", done: true },
-  { content: "zjeść obiad", done: false },
+  { content: "wyprowadzić psa", done: false },
+  { content: "zjeść obiad", done: true },
 ];
-const hideDoneTasks = true;
+const hideDoneTasks = false;
 export default function App() {
   return (
     <Container>
