@@ -2,6 +2,10 @@
 
 This site was built using React.
 the website allows you to enter tasks to be done. If the task is done, you can mark it as done and remove it from the visible list.
+The page is hosted on GitHub Pages: https://agaa-mac.github.io/react-to-do-list/
+
+![page screenshot ](https://github.com/agaa-mac/react-to-do-list/blob/main/public/To-Do-List-React%20.png?raw=true)
+
 
 ## Getting Started with Create React App
 
