@@ -5,7 +5,7 @@ export default function Buttons({ tasks, hideDoneTasks }) {
     return (
       <div className="buttons">
         <button className="buttons__button">
-          {hideDoneTasks ? "Pokaż" : "Ukryj"}
+          {hideDoneTasks ? "Pokaż " : "Ukryj "}
           Ukończone
         </button>
         <button
