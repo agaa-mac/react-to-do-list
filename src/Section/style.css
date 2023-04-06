@@ -9,6 +9,14 @@
   border-bottom: 1px solid #ddd;
 }
 
+@media (max-width: 550px) {
+  .section__header {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    font-size: 15px;
+  }
+}
+
 .section__title {
   margin: 0;
 }

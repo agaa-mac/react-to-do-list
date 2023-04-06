@@ -1,7 +1,14 @@
 .list {
-  margin-top: 1px;
   padding: 30px;
   list-style: none;
+  margin: 5px;
+}
+
+@media (max-width: 550px) {
+  .list {
+    padding: 5px;
+    margin-top: 0px;
+  }
 }
 
 .list__item {
@@ -11,6 +18,12 @@
   border-bottom: 2px solid rgb(241, 240, 241);
   padding: 10px;
   align-items: center;
+}
+
+@media (max-width: 550px) {
+  .list__item {
+    font-size: 12px;
+  }
 }
 
 .list__item--hidden {
@@ -27,6 +40,13 @@
   cursor: pointer;
 }
 
+@media (max-width: 550px) {
+  .list__button {
+    width: 22px;
+    height: 22px;
+  }
+}
+
 .list__button--toogleDone {
   background-color: rgb(29, 134, 35);
 }
@@ -38,6 +58,12 @@
 
 .list__content {
   padding: 0px 20px;
+}
+
+@media (max-width: 550px) {
+  .list__content {
+    padding: 0px 5px;
+  }
 }
 
 .list__content--done {
