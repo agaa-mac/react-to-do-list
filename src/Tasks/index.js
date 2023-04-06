@@ -20,7 +20,9 @@ export default function Tasks({ tasks, hideDoneTasks }) {
             >
               {task.content}
             </span>
-            <button className="list__button list__button--remove">🗑️</button>
+            <button className="list__button list__button--remove">
+              <i class="fa-regular fa-trash-can"></i>
+            </button>
           </li>
         );
       })}
