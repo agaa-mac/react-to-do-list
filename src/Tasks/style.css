@@ -17,6 +17,7 @@
 
 .list__button {
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .list__button--toogleDone {
