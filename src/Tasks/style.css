@@ -6,9 +6,11 @@
 
 .list__item {
   display: grid;
-  grid-template-columns: 25px 1fr 25px;
-  padding: 20px 0 10px;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
   border-bottom: 2px solid rgb(241, 240, 241);
+  padding: 10px;
+  align-items: center;
 }
 
 .list__item--hidden {
@@ -17,19 +19,20 @@
 
 .list__button {
   transition: 0.5s;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  color: white;
   cursor: pointer;
 }
 
 .list__button--toogleDone {
   background-color: rgb(29, 134, 35);
-  border: 1px solid rgb(29, 134, 35);
-  color: white;
-  width: 30px;
 }
 
 .list__button--toogleDone:hover {
   background-color: rgba(29, 134, 35, 0.8);
-  border-color: rgba(29, 134, 35, 0.8);
   color: rgba(29, 134, 35, 0.8);
 }
 
@@ -43,13 +46,8 @@
 
 .list__button--remove {
   background-color: rgb(239, 47, 71);
-  border: 1px solid rgb(239, 47, 71);
-  padding: 5px;
-  width: 30px;
-  color: white;
 }
 
 .list__button--remove:hover {
   background-color: rgba(239, 47, 71, 0.8);
-  border-color: rgba(239, 47, 71, 0.8);
 }

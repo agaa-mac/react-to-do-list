@@ -1,11 +1,18 @@
-.section__header,
-.section__title,
-.section__body {
+.section {
   background-color: white;
+  margin: 10px 0;
 }
-
 .section__header {
-  padding: 1px 15px;
+  padding: 20px;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.section__title {
+  margin: 0;
+}
+
+.section__body {
+  padding: 20px;
 }
