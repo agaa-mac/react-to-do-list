@@ -1,6 +1,6 @@
 import "./style.css";
 
-export default function Buttons({ tasks, hideDoneTasks }) {
+const Buttons = ({ tasks, hideDoneTasks }) => {
   if (tasks.length > 0) {
     return (
       <div className="buttons">
@@ -19,4 +19,5 @@ export default function Buttons({ tasks, hideDoneTasks }) {
   } else {
     return null;
   }
-}
+};
+export default Buttons;

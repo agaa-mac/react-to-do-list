@@ -25,14 +25,17 @@
   color: white;
   width: 30px;
 }
+
 .list__button--toogleDone:hover {
   background-color: rgba(29, 134, 35, 0.8);
   border-color: rgba(29, 134, 35, 0.8);
   color: rgba(29, 134, 35, 0.8);
 }
+
 .list__content {
   padding: 0px 20px;
 }
+
 .list__content--done {
   text-decoration: line-through;
 }

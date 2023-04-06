@@ -4,10 +4,12 @@
   display: grid;
   grid-template-columns: 5fr 1fr;
 }
+
 .form__textInput {
   opacity: 0.5;
   padding: 4px 5px;
 }
+
 .form__button {
   margin-left: 10px;
   padding: 8px 3px;
@@ -17,6 +19,7 @@
   font-size: 14px;
   transition: 0.5s;
 }
+
 .form__button:hover {
   background-color: rgba(2, 127, 142, 0.8);
   border-color: rgba(2, 127, 142, 0.8);
