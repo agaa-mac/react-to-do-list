@@ -13,3 +13,7 @@
 .buttons__button:hover {
   color: rgba(2, 127, 142, 0.5);
 }
+
+.buttons__button:disabled {
+  color: rgb(204, 204, 204);
+}
